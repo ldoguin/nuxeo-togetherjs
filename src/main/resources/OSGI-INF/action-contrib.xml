@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<component name="org.nuxeo.togetherjs.actions">
+
+  <extension point="actions" target="org.nuxeo.ecm.platform.actions.ActionService">
+
+    <action accessKey="i" enabled="true" id="togetherJS" label=""
+      link="javascript:TogetherJS()" order="100" icon="/icons/togetherjs.png" type="bare_link">
+      <category>FOOTER</category>
+      <properties>
+        <property name="ajaxSupport">true</property>
+        <property name="labelStyleClass">footerLabel</property>
+      </properties>
+    </action>
+
+  </extension>
+
+</component>
